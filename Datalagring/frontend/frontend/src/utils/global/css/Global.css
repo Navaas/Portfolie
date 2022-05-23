@@ -1,0 +1,70 @@
+body {
+    background-color: #A7C4BC;
+}
+
+@font-face {
+    font-family: 'IndieFlower';
+    src: local('IndieFlower'),
+    url('./fonts/IndieFlower-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quicksand Bold';
+    src: local('Quicksand Bold'),
+    url('./fonts/Quicksand-Bold.ttf') format('truetype');
+}
+
+
+button {
+    background-color: #A7C4BC;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 10px;
+    font-family: "Quicksand Bold", sans-serif;
+}
+
+button:hover {
+    background-color: #5E8B7E;
+}
+
+p {
+    background-color: whitesmoke;
+    width: 550px;
+    margin: 20px 20px;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: "Quicksand Light", sans-serif;
+}
+
+p:hover {
+    background-color: lightgrey;
+}
+
+input {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+h2 {
+    font-family: "IndieFlower", sans-serif ;
+}
+
+span {
+    font-family: "Quicksand Bold", sans-serif;
+}
+
+h1 {
+    padding: 0;
+    text-align: center;
+}
+
+section {
+    background-color: #DFEEEA;
+    margin-left: 430px;
+    width: 600px;
+    text-align: center;
+    border: 3px ridge lightgrey;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}

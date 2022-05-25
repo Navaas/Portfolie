@@ -34,7 +34,7 @@ fortfarande finnas med UX/UI tänk samt prototyper.
 
 Vi har skapat en enklare Backend med ett RestApi som kopplar till en frontend. (Inget fokus på frontend denna inlämning)
 Api:t innehåller en to-do-list enligt CRUD. Det finns även enkla tester i Insomnia, enkla frontend tester samt tester i
-backend.
+backend. Använt Node.js och React.js, det är en express server.
 
 ### Datalagring
 
@@ -45,4 +45,4 @@ och Insomnia. Inprincip är detta ett FullStack projekt.
 ### FullStack (Pågående)
 
 Vi ska skapa ett FullStack projekt i grupp men temat BookFace, med en inloggning och en meddelande funktion. Detta är
-fortfarande pågående poch kommer upp inom kort. Hela inlämningen ska vara skriven i TypeScript.
+fortfarande pågående och kommer upp inom kort. Hela inlämningen ska vara skriven i TypeScript.

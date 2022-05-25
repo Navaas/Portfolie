@@ -7,6 +7,7 @@ Här kan ni hitta olika projekt jag har gjort under min utbildning till Webbutve
 Min första inlämning där man skulle skapa flera olika HTML-sidor (about, courses, index, blogg, products, other), alla
 sidor ska ha en navbar och en footer. Sidan ska även vara responsiv (media queries mobile/table/desktop)
 
+<img src="image/webbutveckling1.JPG" width="200">
 ![<img src="./image/webbutveckling1.JPG" height="500" width="500"/>](./images/webbutveckling1.JPG)
 ## Programmering_1
 

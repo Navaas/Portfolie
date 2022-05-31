@@ -1,16 +1,18 @@
-.list {
+.ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     overflow: hidden;
-    background-color: #333
+    background-color: #676f75
 }
 
-.item {
-    float: left;
-    border-right: 1px solid #bbb;
+.li {
+    float: right;
 }
 
+.li:hover {
+    border-bottom: 1px solid white;
+}
 .item:last-child {
     border-right: none;
 }
@@ -21,12 +23,4 @@
     /*text-align: center;*/
     padding: 14px 16px;
     text-decoration: none;
-}
-
-.link:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #04AA6D;
 }

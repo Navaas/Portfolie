@@ -1,11 +1,44 @@
-.ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333
+.container {
+    height: 70vh;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 }
 
-.li {
-    border-bottom: 1px solid #bbb;
+.li .link {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 4vh;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+}
+
+.ul {
+    list-style-type: none;
+}
+
+.link:hover {
+    color: whitesmoke;
+}
+
+.imageClose {
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: white;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.imageClose:hover {
+    background-color: palevioletred;
 }

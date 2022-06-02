@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'),
+    url('../fonts/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Calligraffitti';
+    src: local('Calligraffitti'),
+    url('../fonts/Calligraffitti-Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: #778899;
+}
+
+li {
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: Calligraffitti, sans-serif;
+}

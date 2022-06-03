@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import RoutingPath from './RoutingPath'
 import HomeView from '../views/homeview/HomeView'
-import ContactView from '../views/ContactView'
+import ContactView from '../views/contactView/ContactView'
 import PortfolieView from '../views/PortfolieView'
-import BloggView from '../views/BloggView'
+import AboutView from '../views/aboutView/AboutView'
 
 const Routing = (props) => {
     return (
@@ -13,7 +13,7 @@ const Routing = (props) => {
                 <Route path={ RoutingPath.homeView } element={ <HomeView/> } />
                 <Route path={ RoutingPath.contactView } element={ <ContactView/> } />
                 <Route path={ RoutingPath.portfolieView } element={ <PortfolieView/> } />
-                <Route path={ RoutingPath.bloggView } element={ <BloggView/> } />
+                <Route path={ RoutingPath.aboutView } element={ <AboutView/> } />
             </Routes>
         </BrowserRouter>
     )

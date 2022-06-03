@@ -11,6 +11,9 @@
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
+    position: absolute;
+    bottom:0;
+    width: 100%;
 }
 
 .text {

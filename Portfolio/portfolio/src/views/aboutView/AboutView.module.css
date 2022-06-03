@@ -1,0 +1,26 @@
+.container {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    margin-top: 40px;
+    height: 50vh;
+}
+
+.empty {
+    background-color: #D7DCDF;
+}
+
+.containerImage {
+margin: 30px 130px;
+}
+
+.containerText {
+    padding: 20px;
+}
+.image {
+    height: 50%;
+}
+
+.buttonCv {
+    margin-top: 40px;
+}
